@@ -1,0 +1,26 @@
+# Django Core
+Django==4.2.7
+django-environ==0.11.2
+
+# REST Framework
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.0  # For JWT authentication (optional)
+
+# CORS Headers
+django-cors-headers==4.3.1
+
+# Database (uncomment your preferred database)
+# PostgreSQL
+# psycopg2-binary==2.9.9
+
+# MySQL
+# mysqlclient==2.2.0
+
+# SQLite (included with Django)
+
+# Image Processing
+Pillow==10.1.0  # Required for image fields
+
+# Development Tools (optional)
+python-dotenv==1.0.0  # For environment variables
+drf-yasg==1.21.7  # For API documentation
